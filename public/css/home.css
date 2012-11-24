@@ -1,0 +1,27 @@
+/* Styling for all page  */
+
+h4 {
+	color:black;
+font-family:Georgia,"Times New Roman",Times,serif;
+font-size:27px;
+font-weight:normal;
+margin:28px 0 28px 10px;
+}
+
+.homeheading h3 {
+	margin:28px 0 20px 28px;
+	
+}
+.homeheading p {
+	color:#CCC;
+	font-size:12px;
+	margin:0px 28px 28px 10px;
+}
+
+.homeheading {
+padding:2px 0 0 0;
+height:auto;
+}
+.telly {
+	margin-bottom:28px;
+}
