@@ -1,0 +1,55 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<!-- saved from url=(0014)about:internet -->
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>The Royal Bank of Scotland - Silverlight Demo</title>
+
+	<script type="text/javascript" src="Silverlight.js"></script>
+	<script type="text/javascript" src="Default_html.js"></script>
+	<script type="text/javascript" src="Page.xaml.js"></script>
+	<script type="text/javascript" src="JS/Toolbox.js"></script>
+	<script type="text/javascript" src="JS/Button.js"></script>
+	<script type="text/javascript" src="JS/animbutton.js"></script>
+	<style type="text/css">
+		#silverlightControlHost {
+	height: 600px;
+	width: 640px;
+	background-color: #FFFFFF;
+	color: #FFFFFF;
+		}
+		#errorLocation {
+			font-size: small;
+			color: Gray;
+		}
+	body {
+	background-image: url();
+	background-color: #FFFFFF;
+}
+#apDiv1 {
+	position:absolute;
+	left:9px;
+	top:663px;
+	width:667px;
+	height:151px;
+	z-index:1;
+}
+    </style>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"></head>
+
+<body>
+<div id="apDiv1">
+<img src="images/infopart.jpg" alt="info" width="992" height="545">
+<img src="images/bbar.jpg" alt="rbs bottom bar" width="990" height="29"></div>
+<img src="images/topbar.jpg" alt="Mtb cut topbar" width="983" height="80">
+<div id="silverlightControlHost">
+		<script type="text/javascript">
+			createSilverlight();
+		</script>
+	</div>
+	
+	<!-- Runtime errors from Silverlight will be displayed here.
+	This will contain debugging information and should be removed or hidden when debugging is completed -->
+	<div id='errorLocation'></div>
+</body>
+</html>
+
